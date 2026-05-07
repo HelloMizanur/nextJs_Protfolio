@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ShopNest – E-Commerce Platform",
+    "emoji": "🛒",
+    "stack": ["React", "Node.js", "MongoDB", "Express", "JWT", "Stripe"],
+    "desc": "A full-featured e-commerce platform with real-time inventory, secure payments via Stripe, role-based authentication, admin dashboard with analytics, and mobile-first responsive design.",
+    "challenges": "Implementing real-time cart sync across tabs, handling race conditions in inventory updates during flash sales, and integrating Stripe webhooks securely in a serverless environment.",
+    "future": "Add AI-powered product recommendations, wishlist sharing, multi-vendor support, and a PWA for offline browsing.",
+    "live": "https://shopnest-demo.com",
+    "github": "https://github.com/user/shopnest"
+  },
+  {
+    "name": "TaskFlow – Management App",
+    "emoji": "📋",
+    "stack": ["React", "Firebase", "Tailwind", "DnD Kit", "Chart.js"],
+    "desc": "A Kanban-style task management app with drag-and-drop columns, real-time collaboration via Firebase, team workspaces, progress analytics, and deadline notifications.",
+    "challenges": "Smooth drag-and-drop on touch devices, real-time conflict resolution when two users edit the same card, and optimising Firestore reads for large boards.",
+    "future": "Calendar timeline view, Gantt charts, Slack/Discord integrations, AI task auto-assignment based on team workload.",
+    "live": "https://taskflow-demo.com",
+    "github": "https://github.com/user/taskflow"
+  },
+  {
+    "name": "LearnHub – Learning Platform",
+    "emoji": "🎓",
+    "stack": ["Next.js", "PostgreSQL", "Prisma", "Cloudinary"],
+    "desc": "An e-learning platform where instructors upload video courses, students track progress, earn certificates, and participate in discussion forums.",
+    "challenges": "Adaptive video streaming for low-bandwidth connections, building a rich text quiz editor, and a tamper-proof certificate QR system.",
+    "future": "Live class sessions with WebRTC, peer-to-peer code review, AI quiz generation from course material, subscription monetisation.",
+    "live": "https://learnhub-demo.com",
+    "github": "https://github.com/user/learnhub"
+  },
+  {
+    "name": "CryptoPulse – Crypto Tracker",
+    "emoji": "🪙",
+    "stack": ["React", "CoinGecko API", "Framer Motion", "Recharts"],
+    "desc": "Real-time cryptocurrency tracking dashboard that visualizes price trends, market cap, and trading volume for over 5000+ coins.",
+    "challenges": "Handling high-frequency API polling without exceeding rate limits and ensuring smooth chart animations during rapid data updates.",
+    "future": "Portfolio tracking with wallet integration (MetaMask), price alert push notifications, and news sentiment analysis.",
+    "live": "https://cryptopulse.com",
+    "github": "https://github.com/user/cryptopulse"
+  },
+  {
+    "name": "HealthVue – Patient Portal",
+    "emoji": "🏥",
+    "stack": ["Next.js", "TypeScript", "Supabase", "Tailwind"],
+    "desc": "A healthcare management system for booking appointments, viewing digital prescriptions, and tracking medical history securely.",
+    "challenges": "Ensuring HIPAA-compliant data handling and creating a complex calendar logic for doctor availability slots.",
+    "future": "Video consultation integration via Jitsi, AI symptom checker, and wearable device data sync.",
+    "live": "https://healthvue.com",
+    "github": "https://github.com/user/healthvue"
+  },
+  {
+    "name": "SocialWave – Media Platform",
+    "emoji": "📸",
+    "stack": ["React", "Appwrite", "Zustand", "Shadcn UI"],
+    "desc": "A modern social media experience with image sharing, liking/commenting, real-time notifications, and an explore feed.",
+    "challenges": "Implementing an efficient 'infinite scroll' and optimizing image uploads for faster feed loading.",
+    "future": "Direct messaging with Socket.io, story features (24h expiry), and short-form video support.",
+    "live": "https://socialwave.com",
+    "github": "https://github.com/user/socialwave"
+  },
+  {
+    "name": "DevPort – Portfolio Builder",
+    "emoji": "💻",
+    "stack": ["Next.js", "Three.js", "Sanity CMS", "Tailwind"],
+    "desc": "A CMS-powered portfolio builder for developers to showcase their work with 3D elements and customizable themes.",
+    "challenges": "Balancing 3D performance on mobile devices and creating a flexible schema for various project types.",
+    "future": "One-click export to PDF resume, more 3D interactive scenes, and custom domain mapping.",
+    "live": "https://devport.com",
+    "github": "https://github.com/user/devport"
+  },
+  {
+    "name": "ZenWeather – Weather Insights",
+    "emoji": "🌤️",
+    "stack": ["React", "OpenWeather Map API", "Lottie", "Tailwind"],
+    "desc": "A minimal weather app that changes its background and UI based on the local weather condition with high accuracy.",
+    "challenges": "Mapping dynamic weather icons to various API response codes and handling geolocation permissions gracefully.",
+    "future": "7-day hourly forecast charts, air quality index data, and severe weather alerts.",
+    "live": "https://zenweather.com",
+    "github": "https://github.com/user/zenweather"
+  },
+  {
+    "name": "FoodieExpress – Delivery App",
+    "emoji": "🍔",
+    "stack": ["React Native", "Node.js", "MongoDB", "Google Maps"],
+    "desc": "A cross-platform food delivery application featuring live order tracking, restaurant ratings, and coupon management.",
+    "challenges": "Synchronizing the driver's GPS location with the user's map in real-time using WebSockets.",
+    "future": "Subscription-based 'Pro' delivery, multi-restaurant ordering, and voice search integration.",
+    "live": "https://foodieexpress.com",
+    "github": "https://github.com/user/foodie"
+  },
+  {
+    "name": "EcoTrack – Carbon Tracker",
+    "emoji": "🌱",
+    "stack": ["React", "Python", "Flask", "PostgreSQL"],
+    "desc": "An environmental impact calculator that helps users track their daily carbon footprint and suggests eco-friendly alternatives.",
+    "challenges": "Building a reliable calculation engine based on complex environmental data points.",
+    "future": "Community leaderboard, integration with smart home devices, and monthly sustainability reports.",
+    "live": "https://ecotrack.com",
+    "github": "https://github.com/user/ecotrack"
+  },
+  {
+    "name": "VaultSafe – Password Manager",
+    "emoji": "🔐",
+    "stack": ["React", "Electron", "AES-256 Encryption", "Node.js"],
+    "desc": "A desktop-first secure vault for storing passwords and sensitive documents with end-to-end encryption.",
+    "challenges": "Implementing master-password hashing using Argon2 and ensuring local-first data persistence.",
+    "future": "Browser extension support, auto-fill capabilities, and biometric login (FaceID/Fingerprint).",
+    "live": "https://vaultsafe.com",
+    "github": "https://github.com/user/vaultsafe"
+  },
+  {
+    "name": "AuraMusic – Streaming App",
+    "emoji": "🎵",
+    "stack": ["React", "Redux Toolkit", "RapidAPI", "Tailwind"],
+    "desc": "A music streaming platform that allows users to discover trending tracks, create playlists, and see lyrics in real-time.",
+    "challenges": "Managing global audio state across different pages and ensuring gapless playback.",
+    "future": "Offline download mode, social listening rooms, and personalized 'Daily Mix' using ML.",
+    "live": "https://auramusic.com",
+    "github": "https://github.com/user/auramusic"
+  }
+]
