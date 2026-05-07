@@ -13,8 +13,9 @@ This is my personal portfolio website designed to showcase my software developme
 ## 📧 Contact Integration
 
 The contact form is integrated with **EmailJS**, allowing messages to be sent directly to my email address without a backend server[cite: 2].
-Live Link: https://next-js-protfolio-self.vercel.app/
+
 
 ---
+Live Link: https://next-js-protfolio-self.vercel.app/
 
 Developed by [Mizanur Rahman](https://github.com/HelloMizanur)[cite: 2]
