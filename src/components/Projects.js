@@ -1,13 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Reveal, SectionHead, GlowBtn } from "./Utils";
-// ১. আপনার সঠিক পাথ অনুযায়ী JSON ইম্পোর্ট করুন
 import ALL_PROJECTS from "../app/data/projects.json";
 
-/**
- * ২. Modal Component
- * প্রজেক্টের ডিটেইলস দেখানোর জন্য
- */
 function Modal({ project, onClose }) {
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -16,10 +11,8 @@ function Modal({ project, onClose }) {
     };
   }, []);
 
-  // কালার প্যালেট
   const colors = ["#7c3aed", "#06b6d4", "#f59e0b", "#10b981", "#ec4899"];
 
-  // মডালে কার্ডের সাথে মিল রেখে কালার দেখানোর লজিক
   const idx = ALL_PROJECTS.findIndex((p) => p.name === project.name);
   const c = colors[idx % colors.length] || "#7c3aed";
 
@@ -180,14 +173,10 @@ function Modal({ project, onClose }) {
   );
 }
 
-/**
- * ৩. Main Projects Section
- */
 export default function Projects() {
   const [active, setActive] = useState(null);
   const colors = ["#7c3aed", "#06b6d4", "#f59e0b", "#10b981", "#ec4899"];
 
-  // ৪. JSON থেকে শুধুমাত্র প্রথম ৩টি প্রজেক্ট নেওয়া হয়েছে
   const featuredProjects = ALL_PROJECTS.slice(0, 3);
 
   return (
