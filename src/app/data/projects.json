@@ -6,8 +6,8 @@
     "desc": "A full-featured e-commerce platform with real-time inventory, secure payments via Stripe, role-based authentication, admin dashboard with analytics, and mobile-first responsive design.",
     "challenges": "Implementing real-time cart sync across tabs, handling race conditions in inventory updates during flash sales, and integrating Stripe webhooks securely in a serverless environment.",
     "future": "Add AI-powered product recommendations, wishlist sharing, multi-vendor support, and a PWA for offline browsing.",
-    "live": "https://shopnest-demo.com",
-    "github": "https://github.com/user/shopnest"
+  "live": "https://the-shope-assignment-eight.vercel.app/",
+    "github": "https://github.com/HelloMizanur/TheShope-AssignmentEight"
   },
   {
     "name": "TaskFlow – Management App",
